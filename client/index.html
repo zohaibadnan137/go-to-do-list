@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome!</title>
+    <!-- External stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Include Bulma -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <!-- Include Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/b76feda9f9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="hero is-fullheight is-primary">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns is-centered is-vcentered">
+            <div class="column is-half">
+              <div class="card">
+                <div class="card-content">
+                  <div class="content">
+                    <p class="title has-text-centered has-text-dark">
+                      Welcome!
+                    </p>
+                    <p class="subtitle has-text-centered has-text-dark">
+                      Sign in to continue.
+                    </p>
+                    <form action="">
+                      <div class="level">
+                        <div class="level-item">
+                          <div class="field">
+                            <p class="control has-icons-left">
+                              <input
+                                type="email"
+                                class="input"
+                                placeholder="Email"
+                              />
+                              <span class="icon is-left">
+                                <i class="fa-solid fa-envelope"></i>
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class="level-item">
+                          <div class="field">
+                            <p class="control has-icons-left">
+                              <input
+                                type="password"
+                                class="input"
+                                placeholder="Password"
+                              />
+                              <span class="icon is-left">
+                                <i class="fa-solid fa-lock"></i>
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="field has-text-centered">
+                        <div class="control">
+                          <button class="button is-primary">Sign in</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
